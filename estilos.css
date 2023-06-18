@@ -1,0 +1,67 @@
+/* Estilos para el formulario */
+body {
+    background-color: #336699;
+  }
+  
+  .group {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: #e6f3ff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h2 {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #336699;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 15px; /* Aumenta el espaciado vertical entre los elementos */
+    font-weight: bold;
+    color: #336699;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px; /* Aumenta el espaciado vertical entre los elementos */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #336699;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #235682;
+  }
+  
+  /* Estilos para los mensajes de validación */
+  span {
+    color: red;
+    font-style: italic;
+  }
+  
